@@ -1,0 +1,34 @@
+@import "_nullstyle";
+@import "_colstyle";
+
+h2 {
+  color: red;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  
+}
+.header {
+  flex: 1 1 0;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: .5rem;
+}
+.footer {
+
+}
+
+.footer__center {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
