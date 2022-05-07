@@ -1,7 +1,7 @@
 @import "_nullstyle";
 @import "_colstyle";
 
-h2 {
+.footer__h2 {
   color: red;
 }
 
@@ -30,5 +30,8 @@ h2 {
   
 }
 
-
+.active {
+  background-color: black;
+  color: wheat;
+}
 
